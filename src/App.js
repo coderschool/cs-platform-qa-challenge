@@ -68,6 +68,9 @@ function App() {
   };
   return (
     <div className="container">
+      <div>
+        <img alt="logo" src="logo.png" style={{ width: "10rem" }} />
+      </div>
       <form className="searchForm" onSubmit={handleSubmit} autoComplete="off">
         <input
           type="text"
